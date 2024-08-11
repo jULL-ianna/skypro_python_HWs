@@ -1,7 +1,4 @@
 class Smartphone:
-    p_brand = 'Iphone'
-    p_model = '6A'
-    subscriber_number = '+79112345678'
 
     def __init__(self, brand, model, number):
         self.p_brand = brand
