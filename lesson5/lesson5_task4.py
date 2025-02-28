@@ -17,3 +17,4 @@ close_button = driver.find_element(By.CSS_SELECTOR, "div.modal-footer p")
 close_button.click()
     
 driver.quit()
+ 

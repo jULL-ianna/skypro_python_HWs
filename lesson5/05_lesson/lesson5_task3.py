@@ -14,3 +14,4 @@ blue_button = driver.find_element(By.XPATH, "//button[contains(@class, 'btn-prim
 blue_button.click()
 
 sleep(5)
+ 

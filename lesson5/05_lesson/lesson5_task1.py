@@ -22,3 +22,4 @@ delete_buttons = driver.find_elements(By.XPATH, "//button[text()='Delete']")
 print(f"Количество кнопок 'Delete': {len(delete_buttons)}")
 
 sleep(10)  
+ 
