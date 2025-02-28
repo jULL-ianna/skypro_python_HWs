@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.get("http://the-internet.herokuapp.com/add_remove_elements/")
 
 # кликнуть 5 раз
-for _ in range(5):
+for i in range(5):
     add_button = driver.find_element(By.XPATH, "//button[text()='Add Element']")
     add_button.click()
     sleep(0.5)  
